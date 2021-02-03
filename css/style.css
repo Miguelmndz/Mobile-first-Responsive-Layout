@@ -15,6 +15,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #4A4A4A;
+  background-color: #FAFAFA;
 }
 
 h1 {
@@ -64,12 +65,17 @@ strong {
   width: 90%;
   margin: 0 auto;
 }
+
+.contact-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
 .profile-image{
   width: 80%;
   height: auto;
 }
 
-.top-section-header, .section-title, .card {
+.center {
   text-align: center;
 }
 
@@ -92,6 +98,8 @@ strong {
 
 .card {
   margin-top: 2rem;
+  /* background-color: white; */
+  /* min-height: 500px; */
   
 }
 .card h2 {
@@ -99,8 +107,12 @@ strong {
   margin-bottom: 1.4rem; 
 }
 
+hr {
+  border-top: 0px solid #4A4A4A;
+}
+
 footer {
-  padding: 30px;
+  padding: 20px;
 }
 
 footer h2{
@@ -114,25 +126,107 @@ footer h2{
 footer ul {
   text-align: right;
 }
-footer h2:after {
-  clear: both;
-}
+
 
 footer li {
   /* border: rgb(115, 22, 192) 2px solid; */
   background-color: #FAFAFA;
   display: inline-block;
   padding: 0;
-  margin: 0 auto;
 }
 
-nav {
-  
+nav li{
+  text-transform: uppercase;
   /* border: 1px solid red; */
 }
 
-
-
-
+.full {
+  display: none;
+}
 
 /* Media Query's */
+
+@media (min-width: 768px) {
+  header {
+    /* border: 1px solid greenyellow; */
+    padding-top: 5rem;
+  }
+
+  .top-section-header li {
+    display: inline-block;
+    margin-right: 2rem;
+    background-color: #FAFAFA;
+  }
+
+  .top-header-text {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+
+  }
+
+  .profile-image {
+    float: right;
+    width: 45%;
+    height: auto;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+  }
+
+  .group::after {
+    /* border: 2px solid greenyellow; */
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .card {
+    float: left;
+    max-width:50%;
+    padding: 10px;
+  }
+
+  .contact-section {
+    background-color: #FAFAFA;
+    /* border: 1px solid greenyellow; */
+  }
+
+  .contact-wrapper {
+    width: 100%;
+    padding: 3rem 5rem;
+  }
+
+  footer {
+    padding: 1rem 1rem 5rem 1rem;
+  }
+
+  footer li{
+    margin-right: 1.8rem;
+  }
+  
+  .full {
+    display: inline-block;
+  }
+
+  .top {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+  .card {
+    max-width:33%;
+  }
+
+  .name-heading {
+    float: left;
+  }
+
+  header ul {
+    text-align: right;
+  }
+
+}
