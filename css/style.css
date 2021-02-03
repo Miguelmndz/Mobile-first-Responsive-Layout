@@ -15,7 +15,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   color: #4A4A4A;
-  background-color: #FAFAFA;
 }
 
 h1 {
@@ -98,8 +97,6 @@ strong {
 
 .card {
   margin-top: 2rem;
-  /* background-color: white; */
-  /* min-height: 500px; */
   
 }
 .card h2 {
@@ -116,7 +113,6 @@ footer {
 }
 
 footer h2{
-  /* border: 2px solid green; */
   float: left;
   font-size: 1rem;
   padding: 0;
@@ -129,7 +125,6 @@ footer ul {
 
 
 footer li {
-  /* border: rgb(115, 22, 192) 2px solid; */
   background-color: #FAFAFA;
   display: inline-block;
   padding: 0;
@@ -137,7 +132,6 @@ footer li {
 
 nav li{
   text-transform: uppercase;
-  /* border: 1px solid red; */
 }
 
 .full {
@@ -148,7 +142,6 @@ nav li{
 
 @media (min-width: 768px) {
   header {
-    /* border: 1px solid greenyellow; */
     padding-top: 5rem;
   }
 
@@ -174,7 +167,6 @@ nav li{
   }
 
   .group::after {
-    /* border: 2px solid greenyellow; */
     content: "";
     display: block;
     clear: both;
@@ -188,7 +180,6 @@ nav li{
 
   .contact-section {
     background-color: #FAFAFA;
-    /* border: 1px solid greenyellow; */
   }
 
   .contact-wrapper {
@@ -228,5 +219,4 @@ nav li{
   header ul {
     text-align: right;
   }
-
 }

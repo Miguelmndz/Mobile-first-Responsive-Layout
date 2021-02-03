@@ -17,13 +17,12 @@
           <h1 class="name-heading group">Student name</h1>
           <nav>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
-
         <div class="bottem-section-header">
           <img class="profile-image" src="/images/responsive-layout-profile.png" alt="Profile Pitcure">
           <p class="group top-header-text">Hi! I'm A front-end developer who loves responsize design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
@@ -34,7 +33,7 @@
     <main>
       <div class="container">
         <section class="group">
-          <h2 class="section-title center">Portfolio</h2>
+          <h2 id="portfolio" class="section-title center">Portfolio</h2>
           <div class="card ">
             <img src="images/portfolio-1.png" alt="portfolio project 1">
             <h2>Marking Page</h2>
@@ -42,14 +41,12 @@
           </div>
 
           <div class="card center ">
-
             <img src="images/portfolio-2.png" alt="Marking page project">
             <h2>Search Page</h2>
             <p>This project searches through specific database to find information that the user is trying to look up</p>
           </div>
 
           <div class="card center ">
-
             <img src="images/portfolio-3.png" alt="Marking page project">
             <h2>Travel App</h2>
             <p>This project compares travel times based on different transportaion methods and tells you the best one.</p>
@@ -62,7 +59,6 @@
           </div>
 
           <div class="card center ">
-
             <img src="images/portfolio-5.png" alt="Marking page project">
             <h2>Photo Gallery</h2>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
@@ -76,7 +72,7 @@
         </section>
       </div>
       <section class="contact-section contact-wrapper">
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
         <p>If you're interested in chatting or want more information about about what I've been working on, I'd love to hear from you!</p>
         <p>Phone
           <strong>
@@ -87,24 +83,23 @@
         </p>
         <hr>
       </section>
-
     </main>
 
-    <footer class="container">
-      <nav>
+    <footer>
+      <nav class="container">
         <h2>Student Name</h2>
         <ul>
           <li class="full">
-            <a href="#">Home</a>
+            <a href="#top">Home</a>
           </li>
           <li class="full">
-            <a href="#">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li class="full">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li class="top">
-            <a href="#">back to top</a>
+            <a href="#top">Back to top</a>
           </li>
         </ul>
       </nav>
