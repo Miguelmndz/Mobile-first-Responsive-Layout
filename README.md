@@ -1,5 +1,7 @@
 # Mobile first Responsive Layout
  
-Description: Build a simple responsive portfolio page
+Description: Simple responsive portfolio page
+
+Purpose: Gain experience building a responsive web page from scratch
 
 Skills Used: HTML & CSS
